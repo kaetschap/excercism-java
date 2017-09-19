@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LuhnValidatorTest" tests="13" skipped="12" failures="0" errors="0" timestamp="2017-09-03T15:40:41" hostname="linux.fritz.box" time="0.004">
+  <properties/>
+  <testcase name="testThatDoublingNineIsHandledCorrectly" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatASimpleValidNumberIsIdentifiedAsValid" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatAddingANonDigitCharacterToAValidStringInvalidatesTheString" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatTheStringConsistingOfASingleZeroIsInvalid" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatSingleDigitStringIsNotValid" classname="LuhnValidatorTest" time="0.0"/>
+  <testcase name="testThatAnInvalidCreditCardIsIdentifiedAsInvalid" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatTheStringConsistingOfASpaceAndASingleZeroIsInvalid" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatStringContainingSymbolsIsInvalid" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatAnInvalidCanadianSocialInsuranceNumberIsIdentifiedAsInvalid" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatStringContainingMultipleZerosIsValid" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatStringContainingPunctuationIsInvalid" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatAValidCanadianSocialInsuranceNumberIsIdentifiedAsValidV1" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatAValidCanadianSocialInsuranceNumberIsIdentifiedAsValidV2" classname="LuhnValidatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
