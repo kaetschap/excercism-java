@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class Matrix {
@@ -10,6 +11,7 @@ public class Matrix {
     public Matrix(String matrixAsString) {
         int numberRows;
         int numberColumns;
+
         if(matrixAsString.contains("\n")) {
             String[] matrixRows = matrixAsString.split("\n");
             numberRows = matrixRows.length;
@@ -33,6 +35,7 @@ public class Matrix {
             String matrixRows = matrixAsString;
             numberRows = 1;
             numberColumns = (matrixRows.length() + 1) / 2;
+
             int[][] matrix = new int[numberRows][numberColumns];
             String curRow = matrixRows;
             String[] rowElements = curRow.split(" ");
@@ -56,14 +59,20 @@ public class Matrix {
     }
 
     public int[] getRow(int index) {
-        return IntStream.range(0, matrix.length)
+        return IntStream.range(0, this.getColumnsCount())
                 .map(i -> matrix[index][i])
                 .toArray();
     }
 
     public int[] getColumn(int index) {
-        return IntStream.range(0, matrix.length)
+        return IntStream.range(0, this.getRowsCount())
                 .map(i -> matrix[i][index])
                 .toArray();
+    }
+
+    public static void main(String[] args) {
+        Matrix matrix = new Matrix("0 1");
+
+        System.out.println(Arrays.toString(matrix.getRow(0)));
     }
 }
