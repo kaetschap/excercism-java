@@ -7,7 +7,6 @@ public class Matrix {
     int rowsCount;
     int columnsCount;
 
-    // did not pass all tests
     public Matrix(String matrixAsString) {
         int numberRows;
         int numberColumns;
