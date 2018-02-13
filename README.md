@@ -1,2 +1,2 @@
 # excercism-java
-My exercism solutions (exercism java branch)
+My exercism solutions (exercism java branch).
